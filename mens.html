@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mens Layout </title>
+    <Style>
+      
+#Container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);  
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+#left_box > h3,p{
+ margin-left: 30px;
+}
+img{
+    margin-top: 18px;
+    height: 230px;
+    width: 130px;
+margin-left: 90px;
+}
+#right_box > h3,p{
+ margin-left: 30px;
+}
+p{
+    margin-top: -10px;
+}
+#left_box :last-child{
+    font-weight: bolder;
+}
+.finalprice{
+    font-weight: bolder;
+}
+.discount{
+    color: rgb(8, 224, 33)
+}
+.fade{
+    text-decoration: line-through
+}
+.finalprice{
+    display: flex;
+    display: inline;
+}
+    </Style>
+</head>
+<body>
+    <div id = "Container" > 
+
+        <div id = "left_box">
+            <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPPAUSE-BLACK-PAUS57747861200F37/1562877340930_1..jpg?imwidth=320&impolicy=hq"> 
+            <h3> Pause</h3>
+            <p>Men Cotton Long Sleeves Shrug</p>
+
+            <p class="finalprice">  ₹ 359 </p><span class="fade">₹ 1499</span><span class="discount"> -76%</span> 
+                
+        </div>
+        <div id ="right_box">
+            <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPJUBINATION-SJERS295568BD3913AD/1562955990957_0..jpg?imwidth=320&impolicy=hq"> 
+            <h3> JUBINATION</h3>
+            <p>Men Wool Sleeveless Sweater Pack of 1 </p>
+            <p class="finalprice">  ₹ 799 </p> <span class="fade">₹ 1499</span><span class="discount"> -76%</span> 
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>
