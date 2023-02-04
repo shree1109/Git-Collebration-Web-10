@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        div>input,button{
+            
+            display: block;
+            width: 73%;
+            padding: 12px;
+            border: none;
+            margin: 16px;
+            
+        }
+        div>input{
+            background-color: #e7f9f4;
+        }
+        div>button{
+            
+            display: block;
+            width: 80%;
+            padding: 12px;
+            background-color: rgb(76 153 131);
+            cursor: pointer;
+            color: antiquewhite;
+            /* margin: 10px; */
+        }
+
+        input::placeholder{
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 21px;
+            padding: 8px;
+            
+        }
+        #data{
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            width: 30%;
+            height: 470px;
+            background-color: rgb(28 197 173);
+            margin: auto;
+            margin-top: 7%;
+        }
+        #data>p{
+            text-align: center;
+            color: rgb(255, 232, 232);
+            font-size: 200%;
+            padding-top: 15%;
+        }
+        #inputBox{
+            margin-left: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div id="data">
+        <p>- Visitor -</p>
+        <div id="inputBox">
+        <input type="text" placeholder="Full Name">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Organization">
+        <button>SIGN UP</button>
+        <button>RETURN</button>
+        </div>
+        
+    </div>
+</body>
+</html>
